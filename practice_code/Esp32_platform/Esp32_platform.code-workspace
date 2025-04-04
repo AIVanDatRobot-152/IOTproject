@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "ESP32_PWM",
+			"path": "ESP32_PWM"
+		}
+	],
+	"settings": {}
+}

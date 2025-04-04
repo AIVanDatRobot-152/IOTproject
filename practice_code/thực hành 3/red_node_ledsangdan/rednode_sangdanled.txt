@@ -1,0 +1,70 @@
+[
+    {
+        "id": "04cfc7b7869a0878",
+        "type": "mqtt in",
+        "z": "5b7491eff09eb6d3",
+        "name": "",
+        "topic": "NguyenVanDat_2286300010/data",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "1b1c99a567ca8b16",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 320,
+        "y": 440,
+        "wires": [
+            [
+                "91028df83bad8257",
+                "29e5d76728bef053"
+            ]
+        ]
+    },
+    {
+        "id": "1b1c99a567ca8b16",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "7c7482dac8184141b3fff5dc15c518db.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "378687247d764d6f",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "378687247d764d6f",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "isrgrootx1.pem",
+        "servername": "",
+        "verifyservercert": true,
+        "alpnprotocol": ""
+    }
+]

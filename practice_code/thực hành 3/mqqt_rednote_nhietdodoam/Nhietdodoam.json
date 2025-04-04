@@ -1,0 +1,66 @@
+[
+    {
+        "id": "5cb1b9e9e6703e8e",
+        "type": "ui_chart",
+        "z": "a6bb52c3a3d98ed9",
+        "name": "",
+        "group": "fca7ba207c826459",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Độ ẩm",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#1aa81a",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 710,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fca7ba207c826459",
+        "type": "ui_group",
+        "name": "Nhietdo_doam",
+        "tab": "8d7a55d5738c2286",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8d7a55d5738c2286",
+        "type": "ui_tab",
+        "name": "Thuchanh3",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]
